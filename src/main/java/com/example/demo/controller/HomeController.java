@@ -9,4 +9,9 @@ public class HomeController {
     public String index() {
         return "index";
     }
+     @GetMapping("/register")
+   public String ShowRegistrationForm() {
+	   return "signup_form";
+   }
+    
 }
