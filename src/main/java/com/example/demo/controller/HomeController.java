@@ -17,4 +17,13 @@ public class HomeController {
   public String showLoginPage() {
 	  return "user_login";
   }
+ @GetMapping("/about")
+  public String about() {
+	    return "about";
+  }
+  
+  @GetMapping("/contact")
+  public String showContactForm() {
+	  return "contact";
+  }	
 }
