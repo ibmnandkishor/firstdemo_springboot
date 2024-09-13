@@ -13,5 +13,8 @@ public class HomeController {
    public String ShowRegistrationForm() {
 	   return "signup_form";
    }
-    
+     @GetMapping("/user_login")
+  public String showLoginPage() {
+	  return "user_login";
+  }
 }
